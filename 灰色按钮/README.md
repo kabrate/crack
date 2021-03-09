@@ -1,0 +1,1 @@
+找到EnableWindow断点，将push函数从0更改为1。

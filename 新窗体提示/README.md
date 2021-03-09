@@ -1,0 +1,1 @@
+提示失败时候有新的窗体打开，用CreateWindow，CreateWindowExW，CreateWindowExA断点。

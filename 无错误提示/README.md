@@ -1,0 +1,1 @@
+GetwindowsTextA断点，往后查找后修改跳转。
