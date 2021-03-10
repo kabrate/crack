@@ -1,0 +1,3 @@
+
+重启验证的机制是通过注册表进行，对应的API函数是RegQueryValueEx,但断点时候要断RegOpenKeyExA。
+也可以通过GetWindowsTextA断点。
