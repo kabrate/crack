@@ -1,33 +1,12 @@
 发送的消息
-<id=
-16><ver=
-1.9.0><s
-n=Neno><
-cdk=1111
-11111111
-11111111
-><ip=0.0.
-0.0>
+<id=16><ver=1.9.0><sn=Neno><cdk=11111111111111111111><ip=0.0.0.0>
 
 id 是游戏id  ver是修改器版本  sn???  cdk 是输入的密码  ip地址
-<i.d.=.
-1.6.>.<.v.e.r.=.
-1...9...0.>.<.s.
-n.=.N.e.n.o.>.<.
-c.d.k.=.1.1.1.1.
-1.1.1.1.1.1.1.1.
-1.1.1.1.1.1.1.1.
->.<.i.p.=.0...0.
-..0...0.>
+<i.d.=.1.6.>.<.v.e.r.=.1...9...0.>.<.s.n.=.N.e.n.o.>.<.c.d.k.=.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1...0...0.>
 
 接受的消息
 
- <.!.-.-.>.*.<.r.
- z.=.".1.0.0.4.".
- >.*.<.r.e.g.=.".
- ".>.*.<.n.o.t.e.
- =.".".>.*.<.!.!.
- !.-.-.-.*.*.*.>.
+ <.!.-.-.>.*.<.r. z.=.".1.0.0.4.". >.*.<.r.e.g.=.". ".>.*.<.n.o.t.e. =.".".>.*.<.!.!. !.-.-.-.*.*.*.>.
 
 DEMYJ-VHYNF-VDMXF-FOGKD
 
@@ -117,6 +96,9 @@ xia0x1ngA-ESC-BC
 .rdata:000000014028F330 db 14h, 63h, 55h, 21h, 0Ch, 7Dh
 
 总体思路就是读取注册表 然后解密后和机器码对比  得到一个值 判断那个值来决定是否运行修改器
-PHZlcj0iMi44NyI+KjxjZGs9IkRFTVlKVkhZTkZWRE1YRkZPR0tEIj4qPHJlZz0iMDAzRUNBMzVEM0IzOTY1RDYwNkZCRUJGNUNGRUFCNDEiPg==base64解密得到<ver="2.87">*<cdk="DEMYJVHYNFVDMXFFOGKD">*<reg="003ECA35D3B3965D606FBEBF5CFEAB41">
-  读取部分值003ECA35D3B3965D606FBEBF5CFEAB41再次aes解密6.._t=bkM!I_O!NO
+PHZlcj0iMi44NyI+KjxjZGs9IkRFTVlKVkhZTkZWRE1YRkZPR0tEIj4qPHJlZz0iMDAzRUNBMzVEM0IzOTY1RDYwNkZCRUJGNUNGRUFCNDEiPg==base64解密
+得到<ver="2.87">*<cdk="DEMYJVHYNFVDMXFFOGKD">*<reg="003ECA35D3B3965D606FBEBF5CFEAB41">
+读取部分值003ECA35D3B3965D606FBEBF5CFEAB41
+再次aes解密
+6.._t=bkM!I_O!NO
 6.._t=bkM!I_O!NO 异或 xia0x1ngA-ESC-BC 解密 Nen0
