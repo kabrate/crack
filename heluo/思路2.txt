@@ -41,5 +41,6 @@ xia0x1ngA-ESC-BC
 4接受的数据中隐藏着正确的注册码
 
 有个捷径，首先通过'Microsoft Yahei'找到主函数。
+主函数中有个InventoryAction:GetValue字符串，判断flag就在上报
 在主函数中找到两个Flag。
 通过X引用找到相关的判断函数，全部改为相反的条件。
